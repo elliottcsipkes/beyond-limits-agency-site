@@ -2,9 +2,8 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html>
+    <Html lang="en">
       <Head>
-        <meta lang="en" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -13,7 +12,7 @@ export default function Document() {
         />
         <link rel="icon" href="/BLlogoWebIcon.png" />
       </Head>
-      <body>
+      <body className="container mx-auto">
         <Main />
         <NextScript />
       </body>

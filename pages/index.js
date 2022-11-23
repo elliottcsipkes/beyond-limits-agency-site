@@ -11,9 +11,8 @@ export default function Home() {
           content="Beyond Limits is a Social Media Marketing Agency (SMMA) that specializes in paid social ads, social media campaigns, and Search Engine Optimization (SEO)."
         />
       </Head>
-      <body className="container mx-auto">
-        <Hero />
-      </body>
+
+      <Hero />
     </div>
   );
 }
