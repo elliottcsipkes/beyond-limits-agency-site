@@ -69,16 +69,24 @@ const Navbar = () => {
         >
           <ul className="mb-48">
             <li className="p-8 ease-in bg-clip-text hover:text-transparent overflow-hidden hover:bg-gradient-to-tr from-[#3f007c] to-[#ff6633]">
-              <Link href="/">Home</Link>
+              <Link onClick={handleNav} href="/">
+                Home
+              </Link>
             </li>
             <li className="p-8 ease-in bg-clip-text hover:text-transparent overflow-hidden hover:bg-gradient-to-tr from-[#3f007c] to-[#ff6633]">
-              <Link href="/about">About</Link>
+              <Link onClick={handleNav} href="/about">
+                About
+              </Link>
             </li>
             <li className="p-8 ease-in bg-clip-text hover:text-transparent overflow-hidden hover:bg-gradient-to-tr from-[#3f007c] to-[#ff6633]">
-              <Link href="/services">Services</Link>
+              <Link onClick={handleNav} href="/services">
+                Services
+              </Link>
             </li>
             <li className="p-8 ease-in bg-clip-text hover:text-transparent overflow-hidden hover:bg-gradient-to-tr from-[#3f007c] to-[#ff6633]">
-              <Link href="/contact">Contact</Link>
+              <Link onClick={handleNav} href="/contact">
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
