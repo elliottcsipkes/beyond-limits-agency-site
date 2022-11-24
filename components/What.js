@@ -3,7 +3,7 @@ import { MdArrowForward } from "react-icons/md";
 
 const What = () => {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-200">
       <div id="learn" className="transparent bg-white mt-[-4vh] h-10" />
       <div className="container mx-auto">
         <div className="flex justify-center">
