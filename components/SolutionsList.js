@@ -1,13 +1,14 @@
 import React from "react";
 import { MdArrowForward } from "react-icons/md";
 
-const How = () => {
+const SolutionsList = () => {
   return (
     <div>
+      <div id="fullSolutions" className="transparent bg-white mt-[-4vh] h-10" />
       <div className="container mx-auto">
         <div className="flex justify-center">
           <h2 className="text-center text-4xl w-fit font-semibold sm:text-5xl pt-20 bg-clip-text text-transparent bg-gradient-to-bl from-[#ff6633] to-[#3f007c]">
-            Our Process
+            Our Full Solutions
           </h2>
         </div>
         <div className="flex justify-center">
@@ -115,4 +116,4 @@ const How = () => {
   );
 };
 
-export default How;
+export default SolutionsList;

@@ -12,7 +12,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const changeShadow = () => {
-      if (window.scrollY > 190) {
+      if (window.scrollY > 30) {
         setShadow(true);
       } else {
         setShadow(false);
@@ -45,7 +45,7 @@ const Navbar = () => {
             <Link href="/about">About</Link>
           </li>
           <li className="p-5 ease-in bg-clip-text hover:text-transparent overflow-hidden hover:bg-gradient-to-tr from-[#3f007c] to-[#ff6633]">
-            <Link href="/services">Services</Link>
+            <Link href="/solutions">Solutions</Link>
           </li>
           <li className="p-5 ease-in bg-clip-text hover:text-transparent overflow-hidden hover:bg-gradient-to-tr from-[#3f007c] to-[#ff6633]">
             <Link href="/contact">Contact</Link>
@@ -79,8 +79,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="p-8 ease-in bg-clip-text hover:text-transparent overflow-hidden hover:bg-gradient-to-tr from-[#3f007c] to-[#ff6633]">
-              <Link onClick={handleNav} href="/services">
-                Services
+              <Link onClick={handleNav} href="/solutions">
+                Solutions
               </Link>
             </li>
             <li className="p-8 ease-in bg-clip-text hover:text-transparent overflow-hidden hover:bg-gradient-to-tr from-[#3f007c] to-[#ff6633]">
