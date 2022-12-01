@@ -15,7 +15,7 @@ const SolutionsHero = ({ link1, link2 }) => {
               Solutions for any budget designed for maximum growth potential.
             </p>
             <p className="text-gray-700 text-base md:text-lg font-base pt-4 sm:w-[80%] sm:pr-0 sm:pl-0 pr-2 pl-2">
-              Regardless of your business' budget, our agency can tailor our
+              Regardless of your business's budget, our agency can tailor our
               services to meet your individual needs and see you succeed in
               increasing ROI and growing revenue.
             </p>

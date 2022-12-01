@@ -1,5 +1,10 @@
 import React from "react";
-import { MdArrowForward } from "react-icons/md";
+import {
+  MdQuestionAnswer,
+  MdManageAccounts,
+  MdCode,
+  MdPaid,
+} from "react-icons/md";
 
 const SolutionsNames = () => {
   return (
@@ -11,9 +16,9 @@ const SolutionsNames = () => {
             Core Solutions
           </h2>
         </div>
-        <div className="block md:grid md:grid-rows-2 md:grid-flow-col md:gap-8 pt-12 pb-4 justify-center text-center text-gray-700 w-4/5 m-auto">
-          <div className="flex flex-col w-full pb-4 sm:pt-4">
-            <p>ICON</p>
+        <div className="block md:grid md:grid-rows-2 md:grid-flow-col md:gap-8 pt-4 pb-4 justify-center text-center text-gray-700 w-4/5 m-auto">
+          <div className="flex flex-col w-full pb-2 pt-4">
+            <MdQuestionAnswer class="m-auto mb-4" size={70} />
             {/* <img
               className="w-full pb-4"
               src="/Marketing.svg"
@@ -40,8 +45,8 @@ const SolutionsNames = () => {
               </a>
             </div>
           </div>
-          <div className="flex flex-col w-full pb-2 sm:pt-4">
-            <p>ICON</p>
+          <div className="flex flex-col w-full pb-2 pt-4">
+            <MdPaid class="m-auto mb-4" size={70} />
             {/* <img
               className="w-full pb-4"
               src="/Marketing.svg"
@@ -68,8 +73,8 @@ const SolutionsNames = () => {
               </a>
             </div>
           </div>
-          <div className="flex flex-col w-full pb-4 sm:pt-4">
-            <p>ICON</p>
+          <div className="flex flex-col w-full pb-2 pt-4">
+            <MdManageAccounts class="m-auto mb-4" size={80} />
             {/* <img
               className="w-full pb-4"
               src="/Social-Communication.svg"
@@ -96,8 +101,8 @@ const SolutionsNames = () => {
               </a>
             </div>
           </div>
-          <div className="flex flex-col w-full pb-2 sm:pt-4">
-            <p>ICON</p>
+          <div className="flex flex-col w-full pb-2 pt-4">
+            <MdCode class="m-auto mb-4" size={70} />
             {/* <img
               className="w-full pb-4"
               src="/Developer-activity.svg"
