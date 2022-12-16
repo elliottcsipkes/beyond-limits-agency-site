@@ -3,7 +3,7 @@ import { MdArrowForward } from "react-icons/md";
 const Hero = () => {
   return (
     <div>
-      <div className="sm:mt-[0px] flex sm:flex-row justify-around items-center h-[85vh] flex-col-reverse container mx-auto">
+      <div className="sm:mt-[0px] flex sm:flex-row justify-around items-center sm:h-[100vh] h-[95vh] flex-col-reverse container mx-auto">
         <div className="sm:w-[50%] sm:mr-[-24px] grid place-items-center ">
           <div className="text-center sm:text-left">
             <div className="flex justify-center sm:justify-start">
