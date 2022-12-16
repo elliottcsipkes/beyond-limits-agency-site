@@ -48,7 +48,7 @@ const SolutionsHero = ({ link1, link2 }) => {
         <div className="sm:w-[50%] grid h-screen place-items-center">
           <img
             className="max-h-fit text-center"
-            src="/Social-influencer.svg"
+            src="/Business-solution.svg"
             alt="social media marketing"
           />
         </div>
