@@ -3,7 +3,7 @@ import React from "react";
 const OtherHero = ({ link1, link2 }) => {
   return (
     <div>
-      <div className="mt-16 sm:mt-[0px] flex sm:flex-row justify-around items-center sm:h-[100vh] h-[95vh] flex-col-reverse container mx-auto pb-4">
+      <div className="mt-[26px] sm:mt-[0px] flex sm:flex-row justify-around items-center sm:h-[100vh] h-[95vh] flex-col-reverse container mx-auto pb-4">
         <div className="sm:w-[50%] sm:mr-[-24px] grid sm:h-screen place-items-center ">
           <div className="text-center sm:text-left">
             <div className="flex justify-center sm:justify-start">
