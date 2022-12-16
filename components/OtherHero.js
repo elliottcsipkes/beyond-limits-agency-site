@@ -3,8 +3,8 @@ import React from "react";
 const OtherHero = ({ link1, link2 }) => {
   return (
     <div>
-      <div className="mt-16 sm:mt-[0px] flex sm:flex-row justify-around items-center h-[100vh] flex-col-reverse container mx-auto pb-4">
-        <div className="sm:w-[50%] sm:mr-[-24px] grid h-screen place-items-center ">
+      <div className="mt-16 sm:mt-[0px] flex sm:flex-row justify-around items-center sm:h-[100vh] h-[95vh] flex-col-reverse container mx-auto pb-4">
+        <div className="sm:w-[50%] sm:mr-[-24px] grid sm:h-screen place-items-center ">
           <div className="text-center sm:text-left">
             <div className="flex justify-center sm:justify-start">
               <h1 className="text-5xl w-fit sm:text-4xl lg:ml-[-4px] md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-semibold bg-clip-text text-transparent bg-gradient-to-bl from-[#ff6633]  to-[#3f007c]">
@@ -44,7 +44,7 @@ const OtherHero = ({ link1, link2 }) => {
             </div>
           </div>
         </div>
-        <div className="sm:w-[50%] grid h-screen place-items-center">
+        <div className="sm:w-[50%] mt-[26px] grid sm:h-screen place-items-center">
           <img
             className="max-h-fit text-center"
             src="/Meet-the-team.svg"
