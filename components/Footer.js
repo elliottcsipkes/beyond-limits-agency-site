@@ -19,9 +19,13 @@ const Footer = () => {
             <Link href="/contact">Contact</Link>
           </li>
         </ul>
-        <div className="text-center t p-2">
-          <p>Copyright 2022 | Beyond Limits, LLC</p>
+
+        <div className="flex transition-all font-medium text-md">
+          <Link href="/privacypolicy">Privacy Policy</Link>
         </div>
+      </div>
+      <div className="text-center p-4 text-white">
+        <p>Copyright 2022 | Beyond Limits, LLC</p>
       </div>
     </div>
   );
