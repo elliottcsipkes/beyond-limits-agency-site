@@ -11,7 +11,7 @@ const How = () => {
           </h2>
         </div>
         <div className="flex justify-center">
-          <div className="block md:w-4/5 md:flex md:columns-2 md:gap-12 pt-12 pb-6 justify-between text-left items-center text-gray-700">
+          <div className="block lg:w-[80%] md:flex md:columns-2 md:gap-12 pt-12 pb-6 justify-between text-left items-center text-gray-700">
             <div className="w-full pl-10">
               <h3 className="font-semibold text-2xl pb-4">
                 Book a Free Consultation
@@ -46,7 +46,7 @@ const How = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          <div className="block md:w-4/5 md:flex md:flex-row-reverse md:columns-2 md:gap-12 pt-12 pb-6 justify-between text-left items-center text-gray-700">
+          <div className="block lg:w-[80%] md:flex md:flex-row-reverse md:columns-2 md:gap-12 pt-12 pb-6 justify-between text-left items-center text-gray-700">
             <div className="w-full pl-10">
               <h3 className="font-semibold text-2xl pb-4">
                 We Construct A Proposal
@@ -83,7 +83,7 @@ const How = () => {
           </div>
         </div>
         <div className="flex justify-center pb-10">
-          <div className="block md:w-4/5 md:flex md:columns-2 md:gap-12 pt-12 pb-12 justify-between text-left items-center text-gray-700">
+          <div className="block lg:w-[80%] md:flex md:columns-2 md:gap-12 pt-12 pb-12 justify-between text-left items-center text-gray-700">
             <div className="w-full pl-10">
               <h3 className="font-semibold text-2xl pb-4">Client Approval</h3>
               <p>

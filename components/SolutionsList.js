@@ -8,11 +8,11 @@ const SolutionsList = () => {
       <div className="container mx-auto">
         <div className="flex justify-center">
           <h2 className="text-center text-4xl w-fit font-semibold sm:text-5xl pt-20 bg-clip-text text-transparent bg-gradient-to-bl from-[#ff6633] to-[#3f007c]">
-            Our Full Solutions
+            Solutions Explained
           </h2>
         </div>
         <div className="flex justify-center">
-          <div className="block md:w-4/5 md:flex md:columns-2 md:gap-12 pt-12 pb-6 justify-between text-left items-center text-gray-700">
+          <div className="block lg:w-[80%] md:flex md:columns-2 md:gap-12 pt-12 pb-6 justify-between text-left items-center text-gray-700">
             <div className="w-full pl-10">
               <h3 className="font-semibold text-2xl pb-4">
                 Marketing Consulting
@@ -47,7 +47,7 @@ const SolutionsList = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          <div className="block md:w-4/5 md:flex md:flex-row-reverse md:columns-2 md:gap-12 pt-12 pb-6 justify-between text-left items-center text-gray-700">
+          <div className="block lg:w-[80%] md:flex md:flex-row-reverse md:columns-2 md:gap-12 pt-12 pb-6 justify-between text-left items-center text-gray-700">
             <div className="w-full pl-10">
               <h3 className="font-semibold text-2xl pb-4">
                 Social Media Management
@@ -84,7 +84,7 @@ const SolutionsList = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          <div className="block md:w-4/5 md:flex md:columns-2 md:gap-12 pt-12 pb-12 justify-between text-left items-center text-gray-700">
+          <div className="block lg:w-[80%] md:flex md:columns-2 md:gap-12 pt-12 pb-12 justify-between text-left items-center text-gray-700">
             <div className="w-full pl-10">
               <h3 className="font-semibold text-2xl pb-4">
                 Paid Social Advertising
@@ -118,7 +118,7 @@ const SolutionsList = () => {
           </div>
         </div>
         <div className="flex justify-center  pb-10">
-          <div className="block md:w-4/5 md:flex md:flex-row-reverse md:columns-2 md:gap-12 pt-12 pb-6 justify-between text-left items-center text-gray-700">
+          <div className="block lg:w-[80%] md:flex md:flex-row-reverse md:columns-2 md:gap-12 pt-12 pb-6 justify-between text-left items-center text-gray-700">
             <div className="w-full pl-10">
               <h3 className="font-semibold text-2xl pb-4">
                 Search Engine Optimization
