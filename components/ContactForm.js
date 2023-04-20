@@ -57,7 +57,7 @@ const ContactHero = () => {
               </div>
               <div className="p-6 sm:pr-0 sm:pl-0 flex justify-center sm:justify-center">
                 <a
-                  href="#"
+                  href="/submission"
                   className="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-[50px] ml-2"
                 >
                   <span className="w-full h-full bg-gradient-to-bl from-[#ff6633] to-[#3f007c] group-hover:from-[#3f007c]group-hover:to-[#ff6633] absolute"></span>
