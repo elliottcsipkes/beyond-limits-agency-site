@@ -5,10 +5,10 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Beyond Limits - About Us</title>
+        <title>Beyond Limits - Success</title>
         <meta
           name="description"
-          content="Learn more about Beyond Limits, a Social Media Marketing Agency (SMMA) that specializes in marketing consulting, paid social ads, social media campaigns, and Search Engine Optimization (SEO)."
+          content="Thanks for submitting your contact information! We will be in touch soon."
         />
       </Head>
       <Success />
