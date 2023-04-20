@@ -18,7 +18,7 @@ const History = () => {
               Agency History
             </h2>
           </div>
-          <div className="flex columns-2 pb-16 text-left items-center pt-16">
+          <div className="flex text-gray-700 columns-2 pb-16 text-left items-center pt-16">
             <div className="flex basis-1/3 justify-center auto">
               <MdTipsAndUpdates
                 class=""
@@ -28,39 +28,40 @@ const History = () => {
             </div>
             <div className="basis-2/3">
               <p className="text-xl">
-                business started/founded: Lorem ipsum, dolor sit amet
-                consectetur adipisicing elit. Neque rem laudantium fugit minus
-                numquam, aliquam doloribus amet blanditiis quo quisquam animi
-                dolores mollitia beatae itaque? Officia corporis cupiditate
-                labore magni.
+                Since our launch in 2021, our marketing business has grown from
+                a small start-up to a successful agency with a team of dedicated
+                professionals. We began by offering social media management
+                services to a handful of clients, helping them build their
+                online presence and connect with their target audience.
               </p>
             </div>
           </div>
-          <div className="flex columns-2 pb-16 text-left items-center">
+          <div className="flex columns-2 text-gray-700 pb-16 text-left items-center">
             <div className="flex basis-1/3 justify-center">
               <MdSchool style={{ fill: "url(#po-gradient)" }} size={90} />
             </div>
             <div className="basis-2/3">
               <p className="text-xl">
-                business started: Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit. Neque rem laudantium fugit minus numquam,
-                aliquam doloribus amet blanditiis quo quisquam animi dolores
-                mollitia beatae itaque? Officia corporis cupiditate labore
-                magni.
+                As our reputation grew, we expanded our services to include paid
+                social advertising and search engine optimization, providing our
+                clients with a comprehensive approach to digital marketing. Over
+                the years, we've worked with businesses of all sizes across
+                various industries, helping them achieve their marketing goals
+                and drive growth.
               </p>
             </div>
           </div>
-          <div className="flex columns-2 pb-20 text-left items-center">
+          <div className="flex text-gray-700 columns-2 pb-20 text-left items-center">
             <div className="flex basis-1/3 justify-center">
               <MdInsights style={{ fill: "url(#po-gradient)" }} size={90} />
             </div>
             <div className="basis-2/3">
               <p className="text-xl">
-                business started: Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit. Neque rem laudantium fugit minus numquam,
-                aliquam doloribus amet blanditiis quo quisquam animi dolores
-                mollitia beatae itaque? Officia corporis cupiditate labore
-                magni.
+                Our commitment to providing personalized, high-quality services
+                has earned us a loyal customer base and numerous positive
+                reviews. We're proud of the success we've achieved, and we look
+                forward to continuing to help our clients succeed in the
+                ever-changing digital landscape.
               </p>
             </div>
           </div>

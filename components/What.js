@@ -20,10 +20,9 @@ const What = () => {
             />
             <h3 className="font-semibold text-lg">Paid Social Advertising</h3>
             <p className="p-2">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Distinctio ratione harum quae! Facere sunt officiis, id non
-              deserunt commodi, nulla sit nobis aliquam hic est corrupti odio!
-              Illo, veniam quidem.
+              Reach more people and get more bang for your buck with paid social
+              ads. Our experts will create and manage campaigns to promote your
+              content to targeted audiences.
             </p>
           </div>
           <div className="flex flex-col w-full pb-8 sm:pt-4">
@@ -34,10 +33,9 @@ const What = () => {
             />
             <h3 className="font-semibold text-lg">Social Media Management</h3>
             <p className="p-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              sit odio est voluptate non nulla? Dignissimos iusto, error labore
-              consequatur sequi voluptatibus ea blanditiis impedit! Neque
-              eveniet mollitia unde inventore.
+              We'll take your social media to the next level. Our team will
+              develop a strategy, create content, and engage with your audience
+              to increase brand awareness and build a loyal following.
             </p>
           </div>
           <div className="flex flex-col w-full pb-8 sm:pt-4">
@@ -50,10 +48,9 @@ const What = () => {
               Search Engine Optimization
             </h3>
             <p className="p-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus vel
-              incidunt qui architecto corrupti non ducimus rerum, consectetur
-              minus nam voluptatum. Rem libero dolor nam tempore odit, dolore
-              praesentium ipsam!
+              Boost your online visibility with our SEO services. We'll optimize
+              your website for search engines, improve your ranking, and drive
+              more organic traffic to your site.
             </p>
           </div>
         </div>

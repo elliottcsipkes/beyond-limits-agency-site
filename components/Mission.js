@@ -11,7 +11,7 @@ const Mission = () => {
               Our Mission
             </h2>
           </div>
-          <p className="pt-4 pb-20 text-xl">
+          <p className="pt-4 text-gray-700 pb-20 text-xl">
             "Our mission at Beyond Limits is to grow our clients' businesses
             through proven best practices and innovative approaches to optimize
             return on investment."
