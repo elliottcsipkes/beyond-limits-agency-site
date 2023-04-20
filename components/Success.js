@@ -9,7 +9,7 @@ const Success = () => {
             Success
           </h1>
         </div>
-        <p className="text-gray-700 text-base sm:text-xl font-semibold pt-4">
+        <p className="text-gray-700 text-center sm:text-xl font-semibold pt-4">
           We've received your information and will be returning an email to you
           shortly!
         </p>
