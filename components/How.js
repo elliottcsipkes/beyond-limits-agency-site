@@ -24,7 +24,7 @@ const How = () => {
                 will be a good fit.
               </p>
               <a
-                href="#_"
+                href="/contact"
                 className="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-[50px] mt-6 mb-4"
               >
                 <span className="w-full h-full bg-gradient-to-bl from-[#ff6633] to-[#3f007c] group-hover:from-[#3f007c]group-hover:to-[#ff6633] absolute"></span>
@@ -62,7 +62,7 @@ const How = () => {
                 objectives, and <strong>guarantees </strong> for your business.
               </p>
               <a
-                href="#_"
+                href="/contact"
                 className="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-[50px] mt-6 mb-4"
               >
                 <span className="w-full h-full bg-gradient-to-bl from-[#ff6633] to-[#3f007c] group-hover:from-[#3f007c]group-hover:to-[#ff6633] absolute"></span>
@@ -94,7 +94,7 @@ const How = () => {
                 steps of <strong>growing your business.</strong>
               </p>
               <a
-                href="#_"
+                href="/contact"
                 className="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-[50px] mt-6 mb-4"
               >
                 <span className="w-full h-full bg-gradient-to-bl from-[#ff6633] to-[#3f007c] group-hover:from-[#3f007c]group-hover:to-[#ff6633] absolute"></span>
