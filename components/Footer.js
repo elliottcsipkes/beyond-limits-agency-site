@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-center p-4 text-white">
-        <p>Copyright 2022 | Beyond Limits, LLC</p>
+        <p>Copyright 2023 | Beyond Limits, LLC</p>
       </div>
     </div>
   );
