@@ -62,15 +62,15 @@ const ContactHero = () => {
                 >
                   <span className="w-full h-full bg-gradient-to-bl from-[#ff6633] to-[#3f007c] group-hover:from-[#3f007c]group-hover:to-[#ff6633] absolute"></span>
                   <span className="flex items-center relative px-6 py-3 transition-all bg-white rounded-[50px] group-hover:bg-opacity-0 ease-out duration-200">
-                    <button
+                    {/* <button
                       type="submit"
                       value="Submit"
                       className="cursor-pointer transparent"
-                    >
-                      <p className="relative text-sm md:text-lg text-gray-700 group-hover:text-white">
-                        Submit
-                      </p>
-                    </button>
+                    > */}
+                    <p className="relative text-sm md:text-lg text-gray-700 group-hover:text-white">
+                      Submit
+                    </p>
+                    {/* </button> */}
                     <MdArrowForward className="relative ml-1 md:text-lg text-gray-700 group-hover:text-white" />
                   </span>
                 </a>
