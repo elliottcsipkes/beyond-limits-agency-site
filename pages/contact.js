@@ -1,5 +1,5 @@
 import Head from "next/head";
-import ContactForm from "../components/ContactForm";
+import ContactHero from "../components/ContactHero";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
           content="Contact our team with any questions that you may have or for a free consultation"
         />
       </Head>
-      <ContactForm />
+      <ContactHero />
     </div>
   );
 }
