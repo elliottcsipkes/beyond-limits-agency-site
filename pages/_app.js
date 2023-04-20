@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
       </header>
       <Component {...pageProps} />
       <a
-        href="#learn"
+        href="/contact"
         className="fixed p-0.5 sm:bottom-10 sm:right-10 sm:inline-flex items-center justify-center font-bold hidden sm:show overflow-hidden group rounded-[50px] mr-2"
       >
         <span className="w-full h-full bg-gradient-to-bl from-[#ff6633] to-[#3f007c] group-hover:from-[#3f007c]group-hover:to-[#ff6633] absolute"></span>
