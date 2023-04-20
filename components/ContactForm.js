@@ -17,7 +17,7 @@ const ContactHero = () => {
               Limits.
             </p>
             <form
-              action="/"
+              action="/submission"
               method="POST"
               className="flex sm:w-[100%] max-h-96 flex-col items-center sm:pt-4 justify-center"
             >
