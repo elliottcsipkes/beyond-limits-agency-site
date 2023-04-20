@@ -17,7 +17,8 @@ const ContactHero = () => {
               Limits.
             </p>
             <form
-              action="POST"
+              action="/"
+              method="POST"
               className="flex sm:w-[100%] max-h-96 flex-col items-center sm:pt-4 justify-center"
             >
               <div className="relative h-10 w-[90%] sm:w-full min-w-[200px] mt-4">
@@ -55,7 +56,10 @@ const ContactHero = () => {
                 </label>
               </div>
               <div className="p-6 sm:pr-0 sm:pl-0 flex justify-center sm:justify-center">
-                <a className="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-[50px] ml-2">
+                <a
+                  href="#"
+                  className="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-[50px] ml-2"
+                >
                   <span className="w-full h-full bg-gradient-to-bl from-[#ff6633] to-[#3f007c] group-hover:from-[#3f007c]group-hover:to-[#ff6633] absolute"></span>
                   <span className="flex items-center relative px-6 py-3 transition-all bg-white rounded-[50px] group-hover:bg-opacity-0 ease-out duration-200">
                     <button
