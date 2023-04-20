@@ -6,7 +6,7 @@ import {
   MdPaid,
 } from "react-icons/md";
 
-const SolutionsNames = () => {
+const SolutionsNames = ({ link1, link2, link3, link4 }) => {
   return (
     <div className="bg-gray-200">
       <div id="coreSolutions" className="transparent bg-white mt-[-4vh] h-10" />
@@ -26,14 +26,14 @@ const SolutionsNames = () => {
             /> */}
             <h3 className="font-semibold text-lg">Marketing Consulting</h3>
             <p className="p-2">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Distinctio ratione harum quae! Facere sunt officiis, id non
-              deserunt commodi, nulla sit nobis aliquam hic est corrupti odio!
-              Illo, veniam quidem.
+              Marketing consulting is like having a trusted friend who's an
+              expert in marketing. They'll give you great advice and guidance on
+              how to improve your marketing strategies, so you can achieve your
+              business goals.
             </p>
             <div className="flex items-center justify-center pb-2">
               <a
-                href="#_"
+                href={link1}
                 className="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-[50px]"
               >
                 <span className="w-full h-full bg-gradient-to-bl from-[#ff6633] to-[#3f007c] group-hover:from-[#3f007c]group-hover:to-[#ff6633] absolute"></span>
@@ -54,14 +54,14 @@ const SolutionsNames = () => {
             /> */}
             <h3 className="font-semibold text-lg">Paid Social Advertising</h3>
             <p className="p-2">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Distinctio ratione harum quae! Facere sunt officiis, id non
-              deserunt commodi, nulla sit nobis aliquam hic est corrupti odio!
-              Illo, veniam quidem.
+              Paid social advertising is like having a megaphone for your
+              business on social media. It's a way to reach a larger audience by
+              paying to promote your content and target specific demographics to
+              increase engagement, exposure, and drive more conversions.
             </p>
             <div className="flex items-center justify-center pb-2">
               <a
-                href="#_"
+                href={link3}
                 className="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-[50px]"
               >
                 <span className="w-full h-full bg-gradient-to-bl from-[#ff6633] to-[#3f007c] group-hover:from-[#3f007c]group-hover:to-[#ff6633] absolute"></span>
@@ -82,14 +82,14 @@ const SolutionsNames = () => {
             /> */}
             <h3 className="font-semibold text-lg">Social Media Management</h3>
             <p className="p-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              sit odio est voluptate non nulla? Dignissimos iusto, error labore
-              consequatur sequi voluptatibus ea blanditiis impedit! Neque
-              eveniet mollitia unde inventore.
+              Not a wizz at Instagram, Facebook, and Twitter? Social media
+              management is having an expert handle your social media channels,
+              creating a strategy, posting content, and engaging with your
+              audience to help grow your business online.
             </p>
             <div className="flex items-center justify-center pb-2">
               <a
-                href="#_"
+                href={link2}
                 className="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-[50px]"
               >
                 <span className="w-full h-full bg-gradient-to-bl from-[#ff6633] to-[#3f007c] group-hover:from-[#3f007c]group-hover:to-[#ff6633] absolute"></span>
@@ -112,14 +112,15 @@ const SolutionsNames = () => {
               Search Engine Optimization
             </h3>
             <p className="p-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus vel
-              incidunt qui architecto corrupti non ducimus rerum, consectetur
-              minus nam voluptatum. Rem libero dolor nam tempore odit, dolore
-              praesentium ipsam!
+              Search engine optimization (SEO) is like giving your website a VIP
+              pass to the top of search engine results pages. With improved SEO,
+              you can increase traffic to your website, improve online
+              visibility, and attract consumers who are searching for what you
+              offer.
             </p>
             <div className="flex items-center justify-center pb-2">
               <a
-                href="#_"
+                href={link4}
                 className="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-[50px] "
               >
                 <span className="w-full h-full bg-gradient-to-bl from-[#ff6633] to-[#3f007c] group-hover:from-[#3f007c]group-hover:to-[#ff6633] absolute"></span>

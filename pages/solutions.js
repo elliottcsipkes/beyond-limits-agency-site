@@ -14,7 +14,12 @@ export default function Home() {
         />
       </Head>
       <SolutionsHero link1="#coreSolutions" link2="#fullSolutions" />
-      <SolutionsNames />
+      <SolutionsNames
+        link1="#marketingConsulting"
+        link2="#smm"
+        link3="#paidSocial"
+        link4="#seo"
+      />
       <SolutionsList />
     </div>
   );
